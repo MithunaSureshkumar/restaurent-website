@@ -1,0 +1,127 @@
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.landing{
+    background-image: url('../media/pexels-tamanna-rumee-7720533.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+color:#11235A ;
+
+}
+header a{
+    text-decoration: none;
+    color:#F6ECA9;
+    min-width:120px ;
+}
+header{
+display: flex;
+padding: 1em;
+flex-wrap: wrap;
+row-gap: 1em;
+
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+    min-width: 260px;;
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+
+}
+header h2 i,nav a i{
+    margin:.5em;
+}
+nav a:hover{
+    color: #11235A;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.text1{
+    color:#200E3A ;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.text2{
+    color: #F6ECA9;
+
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:#596FB7 ;
+    color: white;
+    border:1px solid #C6CF9B;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: white;
+}
+
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+font-size: 2.5em;
+color: red;
+display: flex;
+justify-content:center;
+}
+table{
+    width: 100%; 
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: right;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row:span 2;
+}
+.locations{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+color: white;
+display: flex;
+flex-wrap: wrap;
+}
+.locations h2{
+    color:rgb(67, 165, 67);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex:1;
+    padding: 1em;
+    min-width :250px;
+}
+footer{
+    background-color: rgb(55,55,55);
+    color: white;
+    padding: .25em 1em;
+}
